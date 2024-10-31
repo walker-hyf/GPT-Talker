@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1b9ec827bf22caec3b2b0f8e882e2020e88261984cfa419c6c7fd4007e9fa6de
-size 49
+It's me. I have studied make-up at a beauty shop.

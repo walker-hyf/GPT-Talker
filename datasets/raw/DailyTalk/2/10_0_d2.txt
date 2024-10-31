@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2e355dfe3a03898eceef424dc982623d139fd443c0c79cb7577b646823e53b94
-size 32
+And the number in Japan, please?

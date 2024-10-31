@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b43127e8975d47821cf1f0d056dcc1affa01f524cd7b8a8afa2e75ee18fc1903
-size 673
+# modified from https://github.com/feng-yufei/shared_debugging_code/blob/main/text_processing/symbols.py
+PAD = '_'
+PUNCTUATION = ';:,.!?¡¿—…"«»“” '
+LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+IPA_LETTERS = "ɑɐɒæɓʙβɔɕçɗɖðʤəɘɚɛɜɝɞɟʄɡɠɢʛɦɧħɥʜɨɪʝɭɬɫɮʟɱɯɰŋɳɲɴøɵɸθœɶʘɹɺɾɻʀʁɽʂʃʈʧʉʊʋⱱʌɣɤʍχʎʏʑʐʒʔʡʕʢǀǁǂǃˈˌːˑʼʴʰʱʲʷˠˤ˞↓↑→↗↘'̩'ᵻ"
+SYMBOLS = [PAD] + list(PUNCTUATION) + list(LETTERS) + list(IPA_LETTERS)
+SPACE_ID = SYMBOLS.index(" ")
+SYMBOL_TO_ID = {s: i for i, s in enumerate(SYMBOLS)}
+ID_TO_SYMBOL = {i: s for i, s in enumerate(SYMBOLS)}

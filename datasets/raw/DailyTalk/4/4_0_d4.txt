@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f0e5023c00eeb8ba72550b56a2835213393081acd04122bfe3bf00b8d7130f9a
-size 35
+Can you teach me how to do make-up?

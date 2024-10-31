@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d0634eeb2490f6aee31865768f3f6d43e4236415203c2587c4de3146e841018
-size 29
+How much money can you spend?

@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cb5cc7b8ecc5b10975c29cdb412be78561ee8ce582a8a19468fcb832bfae0bcb
-size 633
+import os
+import sys
+import traceback
+from collections import OrderedDict
+
+import torch
+from i18n.i18n import I18nAuto
+i18n = I18nAuto()
+def savee(ckpt, name, epoch, steps, hps):
+    try:
+        opt = OrderedDict()
+        opt["weight"] = {}
+        for key in ckpt.keys():
+            if "enc_q" in key:
+                continue
+            opt["weight"][key] = ckpt[key].half()
+        opt["config"] = hps
+        opt["info"] = "%sepoch_%siteration" % (epoch,steps)
+        torch.save(opt, "%s/%s.pth" % (hps.save_weight_dir,name))
+        return "Success."
+    except:
+        return traceback.format_exc()

@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2df3488058af1f9c2135f1815dac9ba8ee24636111094e826c7ed3217c44c9a9
-size 48
+Your signature here, please, and we're finished.

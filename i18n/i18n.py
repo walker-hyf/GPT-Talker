@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3bf9f15a32bee57facbd2fc35a41d2200f62e8055f1d8d649f1f7899f0d1d4e5
-size 790
+import json
+import locale
+import os
+
+
+def load_language_list(language):
+    with open(f"./i18n/locale/{language}.json", "r", encoding="utf-8") as f:
+        language_list = json.load(f)
+    return language_list
+
+
+class I18nAuto:
+    def __init__(self, language=None):
+        if language in ["Auto", None]:
+            language = locale.getdefaultlocale()[
+                0
+            ]  # getlocale can't identify the system's language ((None, None))
+        if not os.path.exists(f"./i18n/locale/{language}.json"):
+            language = "en_US"
+        self.language = language
+        self.language_map = load_language_list(language)
+
+    def __call__(self, key):
+        return self.language_map.get(key, key)
+
+    def __repr__(self):
+        return "Use Language: " + self.language

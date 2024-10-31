@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:454ef23be890e1edfa7e5e00e4179fcf3b69aa0285a893f937ebe73e9ef07256
-size 61
+You have to pay attention to trimming them from time to time.

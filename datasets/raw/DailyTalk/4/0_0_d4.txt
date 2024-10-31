@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:10eca8ced45230c0fc099996d43664fc9d80821c6370598c24f6c03565d67d3e
-size 54
+Good morning, Miss Wang. How beautiful you look today!

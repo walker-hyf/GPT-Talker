@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4ffa7ca93e59998d5f9906957b523bc8b2a6d0863e2ad419bb7f5c3d571673cc
-size 33
+Cash, credit card, or debit card?

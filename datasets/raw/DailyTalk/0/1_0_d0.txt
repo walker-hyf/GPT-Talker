@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da85d8928d92219eb49293e7462794f2d68c0cb5a0a1031e69f9871cbcc2e79a
-size 27
+I'm figuring out my budget.

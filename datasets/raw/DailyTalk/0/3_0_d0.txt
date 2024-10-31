@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d3900083e89a4aff3a1835d16f0c1f6f1d56469893f10974e783d6e756fc985c
-size 67
+I'm making a shopping budget, so that I don't spend too much money.
