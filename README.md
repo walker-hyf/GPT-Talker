@@ -42,12 +42,21 @@ Fine-tunable base models in the [./pretrained_models](./pretrained_models/), fro
 ## Citations
 
 ```bibtex
-@inproceedings{
-liu2024generative,
-    title={Generative Expressive Conversational Speech Synthesis},
-    author={Rui Liu and Yifan Hu and Yi Ren and Xiang Yin and Haizhou Li},
-    booktitle={ACM Multimedia 2024},
-    year={2024},
-    url={https://openreview.net/forum?id=eK9ShhDqwu}
+@inproceedings{10.1145/3664647.3681697,
+  author = {Liu, Rui and Hu, Yifan and Ren, Yi and Yin, Xiang and Li, Haizhou},
+  title = {Generative Expressive Conversational Speech Synthesis},
+  year = {2024},
+  isbn = {9798400706868},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3664647.3681697},
+  doi = {10.1145/3664647.3681697},
+  abstract = {Conversational Speech Synthesis (CSS) aims to express a target utterance with the proper speaking style in a user-agent conversation setting. Existing CSS methods employ effective multi-modal context modeling techniques to achieve empathy understanding and expression. However, they often need to design complex network architectures and meticulously optimize the modules within them. In addition, due to the limitations of small-scale datasets containing scripted recording styles, they often fail to simulate real natural conversational styles. To address the above issues, we propose a novel generative expressive CSS system, termed GPT-Talker.We transform the multimodal information of the multi-turn dialogue history into discrete token sequences and seamlessly integrate them to form a comprehensive user-agent dialogue context. Leveraging the power of GPT, we predict the token sequence, that includes both semantic and style knowledge, of response for the agent. After that, the expressive conversational speech is synthesized by the conversation-enriched VITS to deliver feedback to the user.Furthermore, we propose a large-scale Natural CSS Dataset called NCSSD, that includes both naturally recorded conversational speech in improvised styles and dialogues extracted from TV shows. It encompasses both Chinese and English languages, with a total duration of 236 hours. We conducted comprehensive experiments on the reliability of the NCSSD and the effectiveness of our GPT-Talker. Both subjective and objective evaluations demonstrate that our model outperforms other state-of-the-art CSS systems significantly in terms of naturalness and expressiveness. The Code, Dataset, and Pre-trained Model are available at: https://github.com/AI-S2-Lab/GPT-Talker.},
+  booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages = {4187–4196},
+  numpages = {10},
+  keywords = {conversational speech synthesis (css), expressiveness, gpt, user-agent conversation},
+  location = {Melbourne VIC, Australia},
+  series = {MM '24}
 }
 ```
