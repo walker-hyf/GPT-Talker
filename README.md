@@ -37,7 +37,7 @@ Execute the five steps in the [./prepare_datastes](./prepare_datasets/) director
     The corresponding configuration file is in ./configs/s1longer.yaml
 
 ## Fine-tuning
-Fine-tunable base models in the [./pretrained_models](./pretrained_models/), from [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) (Single Speech).
+Fine-tunable base models in the [./pretrained_models](./pretrained_models/), from [GPT-SoVITS]([https://github.com/RVC-Boss/GPT-SoVITS](https://drive.google.com/drive/folders/15rap3Z_-w0mYgxz66pDcx2abhDRb17dk?usp=sharing)) (Single Speech).
 
 ## Citations
 
